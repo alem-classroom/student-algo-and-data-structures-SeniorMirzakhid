@@ -4,8 +4,8 @@ def linear_search(lst, to_find):
   # else return -1
   for i in range(0,len(lst)):
     if(lst[i] == to_find):
-      print(i)
+      return i
       break
     else:
-      print(-1)
+      return -1
       break
