@@ -4,6 +4,6 @@ def linear_search(lst, to_find):
   # else return -1
   for i in range(0,len(lst)):
     if(lst[i] == to_find):
-      return i
+      print(i)
     else:
-      return -1
+      print(-1)
